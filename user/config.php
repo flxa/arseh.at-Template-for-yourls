@@ -31,7 +31,7 @@ define( 'YOURLS_DB_PREFIX', 'yourls_' );
  */
 
 /** YOURLS installation URL, no trailing slash */
-define( 'YOURLS_SITE', 'http://local/www.arseh.at/' );
+define( 'YOURLS_SITE', 'http://arseh.at' );
 
 /** Timezone GMT offset */
 define( 'YOURLS_HOURS_OFFSET', 0 ); 

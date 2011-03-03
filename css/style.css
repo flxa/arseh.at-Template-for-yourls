@@ -30,42 +30,6 @@ div.share {
   padding:0 1em;
   float:left;
 }
-#copybox {
-  width:500px;
-}
-#sharebox {
-  width:500px;
-}
-#tweet_body {
-  float:left;
-  width:450px;
-  height:4em;
-  font-size:12px;
-  -moz-border-radius:5px;
-  -webkit-border-radius:5px;
-  border-radius:5px;
-  border:2px solid #8DBDD8;
-}
-#charcount {
-  padding-left:5px;
-  color:#8DBDD8;
-  -moz-border-radius:5px;
-  -webkit-border-radius:5px;
-  border-radius:5px;
-  border:2px solid #8DBDD8;
-  padding:5px;
-  background:#fff;
-}
-#charcount.negative {
-  color:red;
-}
-#share_links a {
-  padding:0 12px 0 18px;
-  font-weight:bold
-}
-#share_links a:hover {
-  background-position:2px center;
-}
 
 h1 {text-align:center}
 
@@ -87,6 +51,7 @@ div#container {
     }
 
 div#linkbar {
+	text-align:center;
     -webkit-border-radius: 5px; 
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -221,4 +186,9 @@ a.donate-banner:hover{
   background:url('../images/donate-banner.png');
   filter:  none;
   cursor:pointer;
+}
+
+#copybox a{
+	padding:5px;
+	margin:5px;
 }
